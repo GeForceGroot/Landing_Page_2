@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import '../style/team.css'
 import img from '../images/kaushik.png'
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const TeamMember = () => {
 

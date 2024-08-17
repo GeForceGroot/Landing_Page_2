@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../style/solution.css'
 import value1 from '../images/5213375.png';
 
