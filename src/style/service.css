@@ -27,6 +27,14 @@ span.maximum{
     padding: 28px 24px;
     transition: all .4s ease-in-out;
 }
+.service-after-before a{
+    color: #196C68; 
+}
+.service-after-before:hover a{
+    color: white; 
+    position: relative;
+    z-index: 2;
+}
 
 
 .service-after-before::before{

@@ -23,7 +23,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Strategy Consulting</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)' , textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Strategy Consulting</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Strategy Consulting</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Strategy Consulting</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Marketing &amp; Sales</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Marketing &amp; Sales</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">IT Consulting</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">IT Consulting</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Change Managment</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Change Managment</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Process Improvement</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Process Improvement</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">IT Consulting</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">IT Consulting</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Change Managment</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Change Managment</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Process Improvement</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Process Improvement</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">IT Consulting</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">IT Consulting</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Change Managment</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Change Managment</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ const Service = () => {
                                     <img src={img} alt="" />
                                 </div>
 
-                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Process Improvement</h3></a>
+                                <a style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', textDecoration: "none" }} href="servicemiddle.html"><h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Process Improvement</h3></a>
                                 <p className="font-outfit font-16 lineh-26 weight-400 color-15">Consultants analyze current operations and identify areas for improvement in efficiency, productivity, and cost reduction.</p>
                             </div>
                         </div>
