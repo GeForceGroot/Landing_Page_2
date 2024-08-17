@@ -1,6 +1,5 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
-import value1 from '../images/5213375.png';
 import img from '../images/contact.adff68c5dcc9005ceb1a5566aaf4440b.svg';
 import '../style/contact.css';
 

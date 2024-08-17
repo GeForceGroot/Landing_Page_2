@@ -1,14 +1,8 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
 import '../style/solution.css'
-import deagin1 from '../images/elementor26.png';
-import deagin2 from '../images/elementor28.png';
-import value2 from '../images/6955960.webp';
 import value1 from '../images/5213375.png';
-import value3 from '../images/10966100.png';
-import value5 from '../images/8629253.png';
-import value4 from '../images/75-757195_customer-clipart-end-user-customer-blue-icon-png.png';
+
 
 
 const Solution = () => {

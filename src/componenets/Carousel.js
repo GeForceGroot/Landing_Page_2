@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, { useRef, useEffect, useState } from "react";
-import emailjs from '@emailjs/browser';
+import React, {  useEffect, useState } from "react";
 import logo from '../images/logo-new.png';
 import '../style/contact.css';
 import '../style/navbar.css';
@@ -8,7 +7,6 @@ import '../style/navbar.css';
 
 const Carousel = () => {
   const [scrolled, setScrolled] = useState(false);
-  const form = useRef();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,41 +22,7 @@ const Carousel = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    const formData = {
-      name: e.target.name.value,
-      email: e.target.email.value,
-      phone: e.target.phone.value,
-      requirement: e.target.requirement.value,
-    };
-
-    const emailContent = `
-      Name: ${formData.name}\n
-      Email: ${formData.email}\n
-      Phone: ${formData.phone}\n
-      Requirement: ${formData.requirement}
-    `;
-
-    const emailParams = {
-      to_name: 'Recipient Name',
-      from_name: formData.name,
-      from_email: formData.email,
-      message: emailContent,
-    };
-
-    emailjs.send('service_s9yl39f', 'template_d1jwppl', emailParams, 'Ef5elHS0NNiPr2U6U')
-      .then((result) => {
-        console.log('Email successfully sent!', result.text);
-        form.current.reset(); // Reset the form fields
-        alert('Thank you! I will get back to you as soon as possible!');
-      })
-      .catch((error) => {
-        console.error('There was an error sending the email:', error);
-        alert('Error during sending mail');
-      });
-  };
+  
 
   return (
     <>
