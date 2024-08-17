@@ -25,7 +25,7 @@ const Experinse = () => {
                                     src={img}
                                     className="profile-image"
                                     alt="About Us"
-                                    data-aos="fade-up" data-aos-duration="1200"
+                                    data-aos="fade-right" data-aos-duration="1400"
                                 />
                                 <div className="experience-overlay">
                                     <div className="experience-content">
@@ -38,7 +38,7 @@ const Experinse = () => {
                             </div>
                         </div>
                         {/* <!-- Text Section --> */}
-                        <div className="text-col" data-aos="fade-left" data-aos-duration="800" style={{ textAlign: 'start' }}>
+                        <div className="text-col" data-aos="fade-left" data-aos-duration="1400" style={{ textAlign: 'start' }}>
                             <div className="text-wrapper">
                                 <span className="font-outfit font-16 lineh-16 weight-500 color-h12 aroplan3 d-inline-block margin-b24">Our Service</span>
                                 <h1 style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68' }} className="font-outfit font-40 lineh-52 weight-600 colorhp11 text-capitalize">Your Trusted Partner for Visa Success Stories</h1>
