@@ -1,0 +1,94 @@
+.section-padding5 {
+    padding: 50px 0px 50px;
+}
+
+.works5-sectino {
+    padding: 0 70px 0 0;
+    text-align: center;
+}
+
+span.consultingspan {
+    border-radius: 5px;
+    background: rgba(241, 190, 20, 0.10);
+    padding: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.margin-b20 {
+    margin-bottom: 20px;
+}
+
+.worksicons5 {
+    height: 64px;
+    width: 64px;
+    background: #EFF7F6;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+}
+
+.workstext {
+    position: relative;
+    padding-left: 90px;
+}
+
+.works-servicearea {
+    border-radius: 15px;
+    background: white;
+    padding: 28px 20px;
+    position: relative;
+    z-index: 2;
+    transition: all .4s ease-in-out;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+
+.ts {
+    transition: all .4s ease-in-out;
+}
+
+.weight-600 {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.works-servicearea:hover::after {
+    width: 100%;
+    transition: all .4s ease-in-out;
+    left: 0;
+    right: auto;
+}
+
+.works-servicearea::after {
+    border-radius: 2px;
+    background: #196C68;
+    position: absolute;
+    content: "";
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 0;
+    z-index: -1;
+    transition: all .4s ease-in-out;
+}
+
+#setColor:hover {
+    color: white;
+}
+
+#setColor .workstext a {
+    color: #015c91;
+}
+
+#setRang {
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+    color: #196C68
+
+}
+
+
+#setColor:hover .workstext a {
+    color: white;
+}

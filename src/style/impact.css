@@ -1,0 +1,106 @@
+.servicebenefites8-section-area{
+    position: relative;
+}
+
+span.about8{
+    border-radius: 4px;
+    background: rgba(241, 190, 20, 0.10);
+    padding: 10px 16px;
+    color: black;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.servicebrne8area{
+    border-radius: 4px;
+    background: #EFF7F6;
+    padding: 28px 20px;
+    position: relative;
+    z-index: 1;
+    font-weight: 400;
+}
+
+.margin-b30{
+    margin-bottom: 30px;
+}
+
+
+.servicebene-icons{
+    background: #196C68;
+    display: block;
+    height: 64px;
+    width: 64px;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.servicebene-icons img{
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+.margin-b14{
+    margin-bottom: 14px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.colorhp1{
+    color: #56605F;
+}
+
+.servicebrne8area:hover::after{
+    width: 50%;
+    transition: all .4s ease-in-out;
+    border-radius: 4px 0 0 4px;
+}
+
+.servicebrne8area::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    top: 0;
+    border-radius: 4px;
+    background: #196C68;
+    left: 0;
+    z-index: -1;
+    transition: all .4s ease-in-out;
+}
+
+.servicebrne8area:hover::before{
+    width: 50%;
+    transition: all .4s ease-in-out;
+    border-radius: 0 4px 4px 0;
+}
+
+.servicebrne8area::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    top: 0;
+    border-radius: 4px;
+    background: #196C68;
+    right: 0;
+    z-index: -1;
+    transition: all .4s ease-in-out;
+}
+
+.servicebrne8area:hover .servicebene-icons{
+    background: rgba(255, 255, 255, 0.20);
+    transition: all .4s ease-in-out;
+}
+#setExp:hover .servicebrne8area a{
+    color: white;
+}#setExp:hover .servicebrne8area p{
+    color: white;
+}
+
+.servicebrne8area a{
+    color: #196C68;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}

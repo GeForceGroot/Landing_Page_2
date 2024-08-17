@@ -1,0 +1,212 @@
+.service11-section-area {
+    background: #F6F6F6;
+    position: relative;
+}
+
+.section-padding8 {
+    padding: 100px 0 70px;
+}
+
+.margin-b60 {
+    margin-bottom: 60px;
+}
+
+.aroplan3 {
+    border-radius: 5px;
+    background: rgba(241, 190, 20, 0.10);
+    padding: 6px 10px;
+    margin-bottom: 24px;
+}
+
+.aroplan3 img {
+    margin: 0 4px 0 0;
+}
+
+.service11-boxarea{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.service11-img{
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+}
+.service11-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    transition: all .4s ease-in-out;
+}
+
+.service11-boxtext{
+    background: #fff;
+    padding: 64px 20px 24px 20px;
+    position: relative;
+    border-radius: 4px;
+    width: 330px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    left: 11%;
+    right: 50%;
+    top: -35px;
+    z-index: 1;
+    transition: all .4s ease-in-out;
+}
+
+.ts{
+    transition: all .4s ease-in-out;
+}
+
+.service11-boxtext.service12box::after{
+    background: #49357F;
+}
+
+
+.service11-boxtext::after{
+    position: absolute;
+    content: "";
+    border-radius: 0px 0px 4px 4px;
+    background: #196C68;
+    height: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .2s ease-in-out;
+}
+
+.service-vectorarea.servicevector{
+    background: #196C68;
+}
+
+.service-vectorarea{
+    position: absolute;
+    top: 42%;
+    left: 44%;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 2;
+}
+
+.service-vectorarea{
+    border-radius: 70px;
+    background: #22BFCA;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    transition: all .4s ease-in-out;
+    line-height: 60px;
+}
+
+.service-vectorarea img{
+    filter: brightness(0) invert(1);
+}
+
+.service11-boxtext.service12box::after{
+    background: #196C68;
+}
+
+
+
+.service11-boxarea:hover .service11-boxtext::after{
+    height: 100%;
+    transition: all .4s ease-in-out;
+}
+
+
+.service11-boxtext::after{
+    position: absolute;
+    content: "";
+    border-radius: 0px 0px 4px 4px;
+    background: #196C68;
+    height: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .4s ease-in-out;
+}
+
+.service11-boxarea:hover{
+    color: white;
+}
+
+.service11-boxarea:hover .service11-img img{
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+.service11-boxarea:hover .service-vectorarea{
+    transition: all .4s ease-in-out;
+    background-color: rgba(22, 218, 182, 0.901);
+}
+
+
+
+#btnKnow {
+    /* Default button styling */
+    padding: 7px 25px;
+    background-color: #196C68; /* Initial background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial box-shadow */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    color: white; /* Initial text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    position: relative; /* Positioning context for pseudo-elements */
+    overflow: hidden; /* Hide overflow of pseudo-elements */
+    font-size: 15px; /* Font size */
+    font-weight: 500; /* Font weight */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+  }
+  
+  #btnKnow::before,
+  #btnKnow::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    transition: transform 0.3s ease;
+    z-index: 0; /* Ensure pseudo-elements are behind text */
+  }
+  
+  #btnKnow::before {
+    left: 0;
+    background-color: #3477c0; /* Background color for sliding effect */
+    transform: translateX(-100%);
+  }
+  
+  #btnKnow::after {
+    right: 0;
+    background-color: #3477c0; /* Background color for sliding effect */
+    transform: translateX(100%);
+  }
+  
+  #btnKnow:hover::before,
+  #btnKnow:hover::after {
+    transform: translateX(0); /* Slide effect on hover */
+  }
+  
+  #btnKnow:hover {
+    background-color: #3477c0; /* Change background color on hover */
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); /* Hover effect for box-shadow */
+    color: white; 
+  }
+  
+  #btnKnow span {
+    position: relative; /* Relative position for stacking context */
+    z-index: 1; /* Ensure text stays above pseudo-elements */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+  }
+  
+  /* Ensure the button text remains visible and centered */
+  #btnKnow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
