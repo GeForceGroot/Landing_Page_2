@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react';
 import '../style/experinse.css';
-import img1 from '../images/about3-img.png';
-import img2 from '../images/about4-img.png';
-import img3 from '../images/about5-img.png';
 import img from '../images/about.f759d21a49b78240c207.jpg';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
