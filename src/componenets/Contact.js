@@ -45,7 +45,7 @@ const Contact = () => {
             <div className="company5-section-area section-padding5" style={{ background: '#F8FAFC' }}>
                 <div className="container">
                     <span className="font-16 font-outfit weight-500 lineh-16 color36 d-inline-block consultingspan margin-b20">Get in touch</span>
-                    <h1 style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', marginTop: '15px' }} className="font-outfit font-40 lineh-52 weight-600 colorhp11 text-capitalize">Your Trusted Partner for Visa Success Stories</h1>
+                    <h1 style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', marginTop: '15px' }} className="font-outfit font-40 lineh-52 weight-600 colorhp11 text-capitalize">Your Trusted Partner</h1>
                     <div className="row align-items-centers" style={{ marginTop: '25px' }}>
                         <div className="col-lg-6" style={{ textAlign: 'end' }}>
                             <div className="margin-b30 equel" data-aos="fade-right" data-aos-duration="1000">

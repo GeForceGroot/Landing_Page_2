@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, {  useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from 'react-scroll';
 import logo from '../images/logo-new.png';
 import '../style/contact.css';
 import '../style/navbar.css';
@@ -22,7 +23,7 @@ const Carousel = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  
+
 
   return (
     <>
@@ -36,22 +37,21 @@ const Carousel = () => {
               <div className="col-md-8">
                 <ul className="nav justify-content-center">
                   <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
-                    <a className="nav-link" href="/" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>Home</a>
+                    <Link className="nav-link" to="home" smooth={true} duration={600} style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>Home</Link>
                   </li>
                   <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
-                    <a className="nav-link" href="https://www.ascentwealth.in/#feature-22" target="_blank" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                    <Link to="about-us" smooth={true} duration={600} className="nav-link" href="https://www.ascentwealth.in/#feature-22" target="_blank" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>
                       About&nbsp;Us
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
-                    <a className="nav-link" href="https://www.ascentwealth.in/#title-7" target="_blank" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                    <Link to="services" smooth={true} duration={600} className="nav-link" href="https://www.ascentwealth.in/#title-7" target="_blank" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px' }}>
                       Services
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="col-md-2 text-end" data-aos="fade-left" data-aos-duration="1000">
-                {/* <button id="btnHvn"><span>Login</span></button> */}
               </div>
             </div>
           </div>
@@ -59,17 +59,16 @@ const Carousel = () => {
 
         <div className="container" style={{ marginTop: "150px", paddingBottom: "118px" }}>
           <div className="row">
-            <div className="col" style={{marginLeft:"190px", marginTop:'30px', textAlign:'start'}}>
-              {/* <div className="innerBox" data-aos="fade-right" data-aos-duration="1000" style={{ marginTop: '75px', color: 'rgb(1 192 171)', fontSize: '18px', borderRadius: '4px', background: 'rgb(182 248 242 / 10%)' }}>
-                Maximize Your Earnings with Expert Tax and Bookkeeping Solutions
-              </div> */}
-              <p data-aos="zoom-in" data-aos-duration="1200" style={{ marginTop: "25px", fontSize: '45px', fontWeight: "600", fontFamily: 'ui-sans-serif', color: 'whitesmoke' }}>Your Quick<br/>Way To Success</p>
-              <p data-aos="fade-right" data-aos-duration="1200" style={{ fontSize: '17px', color: "whitesmoke", textAlign: 'left', fontWeight: '400', textShadow: "4px 4px 5px rgba(0, 0, 0, 0.1)", marginBottom:"30px" }}>
-                A quick way to handle your unique and large operations. Whether it is to manage performance, have immediate tactics, seek AI technologies, recording transactions, paying employees, etc. Have us beside you.
+            <div className="col-8" style={{ marginLeft: "190px", marginTop: '30px', textAlign: 'start' }}>
+              <p data-aos="zoom-in" data-aos-duration="1200" style={{ marginTop: "25px", fontSize: '45px', fontWeight: "600", fontFamily: 'ui-sans-serif', color: 'whitesmoke' }}>Customized Financial<br /> Strategies For Sustainable Growth</p>
+              <p data-aos="fade-right" data-aos-duration="1200" style={{ fontSize: '17px', color: "whitesmoke", textAlign: 'left', fontWeight: '500', textShadow: "4px 4px 5px rgba(0, 0, 0, 0.1)", marginBottom: "30px" }}>
+                Standards for booking and accounting have been raised in Canada, and businesses have extra headaches to handle new taxation laws while handling increasing competition. This leads to hindered progress of your business. Why not allow us to handle your accounting, taxes, laws, payroll and more? You focus on making sales supported by our proven strategies. Get a helping hand to go that extra mile.
               </p>
-              <button  data-aos="fade-left" data-aos-duration="1200" id="btnSubmit"><span>Contact Us</span></button>
+              <Link>
+                <button to="contactUs" smooth={true} duration={600} data-aos="fade-left" data-aos-duration="1200" id="btnSubmit"><span>Contact Us</span></button>
+              </Link>
             </div>
-            <div className="col">
+            <div className="col-4">
               {/* <form ref={form} className="form" onSubmit={sendEmail} data-aos="fade-left" data-aos-duration="1200">
                 <div className='row'>
                   <h4 style={{ display: 'flex', color: 'rgb(41 239 217 / 77%)', fontWeight: '700', textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', letterSpacing: '1px' }}> Request a free consult now!</h4>

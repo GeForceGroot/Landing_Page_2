@@ -3,6 +3,7 @@ import '../style/team.css'
 import img from '../images/kaushik.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-scroll';
 
 const TeamMember = () => {
 
@@ -59,18 +60,20 @@ const TeamMember = () => {
                                     className="font-16 lineh-26 weight-500 color-30 font-ks"
                                     style={{ marginTop: '20px', fontFamily: 'inherit' }}
                                 >
-                                    Mr Kaushik Thakkar is our managing director who has successfully managed and saved bookkeeping and other operations for several organisations. With more than 11 years of experience working in dynamic industries in the USA, Canada, UK, Australia and India. He has expertise in GST/HST, sales tax, bookkeeping, accounting, budgets, audits, payrolls and more. His alliance with various CPAs and CAs across these countries leads to excellent international law support and compliance with international standards. Mr Kaushik Never sets back from learning.
+                                    Mr Kaushik Thakkar is the backbone of Cad Bookkeeping. His vision to serve businesses to contribute to global development leads to the creation of Cad Bookkeeping. He has served lots of organisations and corporations throughout his successful career of 11+ years. He is been considered an expert in bookkeeping, accounting, payroll management, internal audits, and filing taxes at the international level. He has allied with CPAs and CAs in various nations to create a strong network of professionals to support you in peak seasons and for your international operations.
                                 </p>
-                                <button
-                                    className='aos-init'
-                                    data-aos="fade-left"
-                                    data-aos-offset="100"
-                                    data-aos-duration="1200"
-                                    id="btnContact"
-                                >
-                                    <span>Get In Touch</span>
-                                    <i className="fa-solid fa-arrow-right"></i>
-                                </button>
+                                <Link to="contactUs" smooth={true} duration={600}>
+                                    <button
+                                        className='aos-init'
+                                        data-aos="fade-left"
+                                        data-aos-offset="100"
+                                        data-aos-duration="1200"
+                                        id="btnContact"
+                                    >
+                                        <span>Get In Touch</span>
+                                        <i className="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -15,6 +15,7 @@ import Solution from './componenets/Solution';
 import Contact from './componenets/Contact';
 import Footer from './componenets/Footer';
 import Geowth from './componenets/Geowth';
+import ProgressBar from './componenets/ProgessBar'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="App">
       {loading ? <LoadingScreen /> : <MainContent />}
+      <ProgressBar />
     </div>
   );
 }
@@ -44,17 +46,25 @@ function LoadingScreen() {
 function MainContent() {
   return (
     <div>
-      <Carousel/>
-      <Experinse/>
-      <Value/>
-      <TeamMember/>
-      <Result/>
-      <Service/>
-      <Impact/>
-      <Solution/>
-      <Geowth/>
-      <Contact/>
-      <Footer/>
+      <section id="home">
+        <Carousel />
+      </section>
+      <Experinse />
+      <Value />
+      <section id="about-us">
+        <TeamMember />
+      </section>
+      <Result />
+      <section id="services">
+        <Service />
+      </section>
+      <Impact />
+      <Solution />
+      <Geowth />
+      <section id='contactUs'>
+        <Contact />
+      </section>
+      <Footer />
     </div>
   );
 }

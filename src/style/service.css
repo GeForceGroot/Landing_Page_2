@@ -34,6 +34,10 @@ span.maximum{
     color: white; 
     position: relative;
     z-index: 2;
+}.service-after-before:hover ul li{
+    color: white; 
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -138,5 +142,17 @@ a.learn-more span{
     z-index: 3;
     background: #fff;
     transition: all .4s ease-in-out;
+}
+
+.listStyle{
+    list-style: circle;
+    text-align: initial;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: #56605F;
+}
+
+.service-after-before:hover ul li {
+    color: white;
 }
 

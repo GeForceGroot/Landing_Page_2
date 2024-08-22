@@ -14,7 +14,7 @@ const Geowth = () => {
                         <div className="col-lg-6 aos-init aos-animate" data-aos="fade-left" data-aos-duration="800" style={{ textAlign: 'start' }}>
                             <div className="company-progress-area">
                                 <span className="maximum font-outfit font-16 lineh-16 color-12 weight-500 margin-b20 d-inline-block">Company Progress</span>
-                                <h1 style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68' }} className="font-outfit font-44 weight-600 lineh-52 color-17 margin-b20">Company progress world record in business and strategy consultant.</h1>
+                                <h1 style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68' }} className="font-outfit font-44 weight-600 lineh-52 color-17 margin-b20">Let's Watch Your KPIs Grow!</h1>
                                 <div class="price-list">
                                     <ul>
                                         <li class="font-outfit font-16 weight-600 color37 ts"><span><img src={check} width={'13px'} height={'13px'}></img></span> Business Planning</li>
