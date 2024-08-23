@@ -181,3 +181,16 @@ a.themebtn11 {
   margin-bottom: 16px;
   width: 100%;
 }
+
+
+@media (max-width:550px) {
+  .immigritation-listarea{
+    padding: 0px;
+  }
+  #giveTop{
+    margin-top: 50px;
+  }
+  #valueBox{
+    margin-top: 50px;
+  }
+}

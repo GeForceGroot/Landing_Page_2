@@ -57,43 +57,21 @@ const Carousel = () => {
           </div>
         </section>
 
-        <div className="container" style={{ marginTop: "150px", paddingBottom: "118px" }}>
+        <div className="container custom-container">
           <div className="row">
-            <div className="col-8" style={{ marginLeft: "190px", marginTop: '30px', textAlign: 'start' }}>
-              <p data-aos="zoom-in" data-aos-duration="1200" style={{ marginTop: "25px", fontSize: '45px', fontWeight: "600", fontFamily: 'ui-sans-serif', color: 'whitesmoke' }}>Customized Financial<br /> Strategies For Sustainable Growth</p>
-              <p data-aos="fade-right" data-aos-duration="1200" style={{ fontSize: '17px', color: "whitesmoke", textAlign: 'left', fontWeight: '500', textShadow: "4px 4px 5px rgba(0, 0, 0, 0.1)", marginBottom: "30px" }}>
+            <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 custom-content">
+              <p data-aos="zoom-in" data-aos-duration="1200" className="custom-title">Customized Financial<br /> Strategies For Sustainable Growth</p>
+              <p data-aos="fade-right" data-aos-duration="1200" className="custom-description">
                 Standards for booking and accounting have been raised in Canada, and businesses have extra headaches to handle new taxation laws while handling increasing competition. This leads to hindered progress of your business. Why not allow us to handle your accounting, taxes, laws, payroll and more? You focus on making sales supported by our proven strategies. Get a helping hand to go that extra mile.
               </p>
               <Link>
                 <button to="contactUs" smooth={true} duration={600} data-aos="fade-left" data-aos-duration="1200" id="btnSubmit"><span>Contact Us</span></button>
               </Link>
             </div>
-            <div className="col-4">
-              {/* <form ref={form} className="form" onSubmit={sendEmail} data-aos="fade-left" data-aos-duration="1200">
-                <div className='row'>
-                  <h4 style={{ display: 'flex', color: 'rgb(41 239 217 / 77%)', fontWeight: '700', textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', letterSpacing: '1px' }}> Request a free consult now!</h4>
-                  <div className="col form-group" data-aos="fade-up" data-aos-duration="1000">
-                    <label htmlFor="name" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Your Name (Required)</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required />
-                  </div>
-                  <div className="col form-group" data-aos="fade-up" data-aos-duration="1000">
-                    <label htmlFor="email" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Your Email (Required)</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
-                  </div>
-                </div>
-                <div className="form-group" data-aos="fade-up" data-aos-duration="1000" style={{ marginTop: '20px' }}>
-                  <label htmlFor="phone" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Phone (Optional)</label>
-                  <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
-                </div>
-                <div className="form-group" data-aos="fade-up" data-aos-duration="1000" style={{ marginTop: '20px' }}>
-                  <label htmlFor="requirement" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Tell Us About Your Requirement</label>
-                  <textarea id="requirement" name="requirement" rows="4" placeholder="Describe your needs in detail"></textarea>
-                </div>
-                <button data-aos="fade-left" data-aos-duration="1200" id="btnSubmit"><span>Contact Us</span></button>
-              </form> */}
-            </div>
+            <div className="col-4"></div>
           </div>
         </div>
+
       </section>
     </>
   );

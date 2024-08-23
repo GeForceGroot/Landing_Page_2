@@ -60,6 +60,10 @@
     align-items: center;
     justify-content: center;
   }
+  #textSet{
+    text-align: start;
+    padding-top: 50px;
+  }
 
   #team{
     border-radius: 5px;
@@ -68,4 +72,18 @@
     margin-bottom: 24px;
     color: black;
     font-weight: 400;
+  }
+
+  @media (max-width:550px) {
+    #temOClReverse{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    #btnContact{
+      display: none;
+    }
+    #textSet{
+      text-align: center;
+      padding-top: 50px;
+    }
   }

@@ -9,7 +9,7 @@ const Result = () => {
         <>
             <div className="servicebenefites11-section-area section-padding5">
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div className="row align-items-center" id='giveTop'>
                         <div className="col-lg-5 aos-init aos-animate" data-aos="fade-left" data-aos-duration="800" data-aos-easing="linear" style={{ textAlign: 'start' }}>
                             <span className="font-outfit font-16 lineh-16 weight-500 color aropaln3 d-inline-block margin-b24">Results of our years of efforts</span>
                             <h1 className="font-outfit font-40 lineh-52 weight-600 color text-capitalize margin-b20 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', margin: '0px' }}>Dedicated Delivery, Timely Results</h1>
@@ -19,7 +19,7 @@ const Result = () => {
                                 <button id='btnGuide' className="font-outfit font-16 lineh-16 weight-700 color themebtn11 thmbtn12 d-inline-block margin-t32"><span>Immigration Guidance</span></button>
                             </Link>
                         </div>
-                        <div className="col-lg-7">
+                        <div className="col-lg-7" id='valueBox'>
                             <div className="immigritation-listarea">
                                 <div className="row">
                                     <div className="col-lg-6 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="800">
@@ -29,7 +29,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <a href="servicemiddle.html" className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Get real-time and customisable reports as per your needs</a>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Get real-time and customisable reports as per your needs</p>
                                                 </div>
                                             </div>
 
@@ -43,7 +43,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <a href="servicemiddle.html" className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Extra cloud-based security layer for your data and privacy protection</a>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Extra cloud-based security layer for your data and privacy protection</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -57,7 +57,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <a href="servicemiddle.html" className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Leverage technology for automation and intelligence</a>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Leverage technology for automation and intelligence</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -71,7 +71,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <a href="servicemiddle.html" className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>We know how to save with effective resource management.</a>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>We know how to save with effective resource management.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -85,7 +85,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <a href="servicemiddle.html" className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>One-stop solution for all your operational and financial needs</a>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>One-stop solution for all your operational and financial needs</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -99,7 +99,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <a href="servicemiddle.html" className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Latest tools and technology for effective communication and control</a>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Latest tools and technology for effective communication and control</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -113,8 +113,8 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <a href="servicemiddle.html" className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Document management with retrieval, formats and presentation to authorities
-                                                    </a>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Document management with retrieval, formats and presentation to authorities
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -127,7 +127,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <a href="servicemiddle.html" className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Always have someone by your side with our globally spread support team at various zones</a>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Always have someone by your side with our globally spread support team at various zones</p>
                                                 </div>
                                             </div>
                                         </div>

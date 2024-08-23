@@ -22,3 +22,8 @@
     text-align: center;
     font-size: 13px;
 }
+
+.company-images img{
+    width: 100%;
+    height: 100%;
+}

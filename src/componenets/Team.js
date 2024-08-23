@@ -18,7 +18,7 @@ const TeamMember = () => {
         <>
             <div className="team-details-sectionarea section-padding5" style={{ marginTop: '25px' }}>
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div className="row align-items-center" id='temOClReverse'>
                         <div className="col-lg-6">
                             <div className="team-detailsimg">
                                 <img
@@ -33,7 +33,7 @@ const TeamMember = () => {
                                 />
                             </div>
                         </div>
-                        <div className="col-lg-6" style={{ textAlign: 'start', paddingTop: '50px' }}>
+                        <div className="col-lg-6" id='textSet'>
                             <div className="team-detailsarea">
                                 <span
                                     id='team'
@@ -50,6 +50,7 @@ const TeamMember = () => {
                                     data-aos-duration="1200"
                                     className="font-lora font-48 lineh-54 weight-600 color-29 margin-b"
                                     style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', margin: '0px' }}
+                                    id='nameKau'
                                 >
                                     Mr Kaushik Thakkar
                                 </h1>

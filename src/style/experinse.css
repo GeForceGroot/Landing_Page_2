@@ -316,3 +316,17 @@ a.consulitingbt7::after{
 .read-more-btn i {
     margin-left: 0.25rem;
 }
+
+
+@media (max-width:550px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .profile-image{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+}

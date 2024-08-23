@@ -156,3 +156,8 @@ a.learn-more span{
     color: white;
 }
 
+@media (max-width:550px) {
+    .service-haeder-text h1{
+        padding: 0px;
+    }
+}
