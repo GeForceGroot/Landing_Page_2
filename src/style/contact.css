@@ -90,14 +90,21 @@ button[type="submit"] {
   input[type="email"],
   input[type="tel"] {
     /* Adjust width for smaller screens */
-    width: 150px;
+    width: 415px;
     /* Subtract label width */
   }
 
   .midContac {
     display: none;
   }
+  #makeBlock{
+    display: block;
+  }
 
+}
+
+#startCaro{
+  text-align: start;
 }
 
 /* For even smaller screens (very small screens) */
@@ -132,26 +139,19 @@ button[type="submit"] {
     font-size: 14px;
     /* Adjust as needed */
   }
-
-
-  @media (max-width:480px) {
-    #name {
-      width: 280px;
-    }
-
-    #email {
-      width: 280px;
-    }
-
-    #phone {
-      width: 280px;
-    }
-
-    #requirement {
-      width: 280px;
-    }
+  #startCaro{
+    text-align: center;
   }
 }
+
+.paraText {
+  text-align: left;
+  font-size: 20px ;
+  color: whitesmoke ;
+  font-weight: 500 ;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1) ;
+}
+
 
 #carousel {
   position: relative;
@@ -189,7 +189,7 @@ button[type="submit"] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(4, 29, 41, 0.6), rgba(204, 255, 250, 0.351));
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(4, 29, 41, 0.6), rgba(0, 0, 0, 0.4));
   z-index: 1;
   opacity: 0.8;
   /* Adjust opacity to your preference */
@@ -204,16 +204,20 @@ button[type="submit"] {
   /* Places content above the background and overlays */
 }
 
+
+
 #btnSubmit {
   /* Default button styling */
-  padding: 12px 25px;
+  padding: 7px 25px;
   background-color: #b9def4;
   /* Initial background color */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   /* Initial box-shadow */
   border: none;
   /* No border */
-  color: #015c91;
+  border-radius: 10px;
+  /* Rounded corners */
+  color: #196C68;
   /* Initial text color */
   cursor: pointer;
   /* Pointer cursor on hover */
@@ -251,7 +255,7 @@ button[type="submit"] {
 
 #btnSubmit::after {
   right: 0;
-  background-color: #3477c0;
+  background-color: #425b76;
   /* Background color for sliding effect */
   transform: translateX(100%);
 }
@@ -293,12 +297,12 @@ button[type="submit"] {
 }
 
 .nav-item a.nav-link:hover {
-  color: #14B8A6 !important;
+  color: #196C68 !important;
 }
 
 #btnSubmit {
   /* Default button styling */
-  padding: 12px 25px;
+  padding: 10px 25px;
   background-color: #196C68;
   /* Initial background color */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -356,7 +360,7 @@ button[type="submit"] {
 }
 
 #btnSubmit:hover {
-  background-color: #3477c0;
+  background-color: #196C68;
   /* Change background color on hover */
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
   /* Hover effect for box-shadow */
@@ -439,6 +443,7 @@ span.consultingspan {
   position: relative;
   z-index: 1;
   transition: all .4s ease-in-out;
+  margin-top: 10px;
 }
 
 
@@ -465,90 +470,23 @@ span.consultingspan {
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
 }
 
-.custom-container {
-  margin-top: 150px;
-  padding-bottom: 118px;
-}
 
-.custom-content {
-  margin-top: 30px;
-  text-align: start;
-}
-
-/* Title styling */
-.custom-title {
-  margin-top: 25px;
-  font-size: 45px;
-  font-weight: 600;
-  font-family: 'ui-sans-serif', sans-serif;
-  color: whitesmoke;
-}
-
-/* Description styling */
-.custom-description {
-  font-size: 17px;
-  color: whitesmoke;
-  text-align: left;
-  font-weight: 500;
-  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
-}
-
-
-/* Responsive Media Queries */
-@media (max-width: 992px) {
-  .custom-container {
-    margin-top: 100px;
-    padding-bottom: 80px;
+@media (max-width:1050px) {
+  #resposniveCaro{
+    display: block;
+  }  
+  #rowReverse{
+    display: flex;
+    flex-direction: column-reverse;
   }
 
-  .custom-title {
-    font-size: 35px;
+  .about5ims{
+    margin-top: 50px;
   }
-
-  .custom-description {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  .custom-container {
-    margin-top: 80px;
-    padding-bottom: 60px;
-  }
-
-  .custom-title {
-    font-size: 30px;
-  }
-
-  .custom-description {
-    font-size: 15px;
-  }
-
-  .custom-content {
-    margin-left: 0;
+  #centerData{
     text-align: center;
   }
-}
-
-@media (max-width: 576px) {
-  .custom-container {
-    margin-top: 60px;
-    padding-bottom: 40px;
-  }
-
-  .custom-title {
-    font-size: 25px;
-  }
-
-  .custom-description {
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .custom-content {
-    margin-left: 0;
-    margin-top: 100px;
-    text-align: center;
+  .consultingspan{
+    margin-bottom: 0px;
   }
 }

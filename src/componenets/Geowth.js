@@ -30,7 +30,7 @@ const Geowth = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1000">
+                        <div className="col-lg-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="800">
                             <div className="company-images">
                                 <img src={img}  alt="" />
                             </div>

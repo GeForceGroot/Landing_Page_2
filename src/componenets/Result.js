@@ -36,18 +36,7 @@ const Result = () => {
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-6 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
-                                        <div className="immigrationarea immigratation2">
-                                            <div className='row'>
-                                                <div className='col-2' style={{ alignItems: 'center', display: 'flex' }}>
-                                                    <img src={img} width={'32px'} height={'32px'} />
-                                                </div>
-                                                <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Extra cloud-based security layer for your data and privacy protection</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
 
 
                                     <div className="col-lg-6 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1200">
@@ -63,7 +52,19 @@ const Result = () => {
                                         </div>
                                     </div>
 
-
+                                    <div className="col-lg-6 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+                                        <div className="immigrationarea immigratation2">
+                                            <div className='row'>
+                                                <div className='col-2' style={{ alignItems: 'center', display: 'flex' }}>
+                                                    <img src={img} width={'32px'} height={'32px'} />
+                                                </div>
+                                                <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Extra cloud-based security layer for your data privacy protection</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div className="col-lg-6 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1400">
                                         <div className="immigrationarea immigratation2">
                                             <div className='row'>
@@ -91,7 +92,20 @@ const Result = () => {
                                         </div>
                                     </div>
 
-
+                                    <div className="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1200">
+                                        <div className="immigrationarea immigratation2">
+                                            <div className='row'>
+                                                <div className='col-2' style={{ alignItems: 'center', display: 'flex' }}>
+                                                    <img src={img} width={'32px'} height={'32px'} />
+                                                </div>
+                                                <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Document management with retrieval presentation to authorities
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div className="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1000">
                                         <div className="immigrationarea immigratation2">
                                             <div className='row'>
@@ -105,21 +119,6 @@ const Result = () => {
                                         </div>
                                     </div>
 
-
-                                    <div className="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1200">
-                                        <div className="immigrationarea immigratation2">
-                                            <div className='row'>
-                                                <div className='col-2' style={{ alignItems: 'center', display: 'flex' }}>
-                                                    <img src={img} width={'32px'} height={'32px'} />
-                                                </div>
-                                                <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Document management with retrieval, formats and presentation to authorities
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                     <div className="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1400">
                                         <div className="immigrationarea immigratation2">
                                             <div className='row'>
@@ -127,7 +126,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Always have someone by your side with our globally spread support team at various zones</p>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Always have someone by your side with our globally support team</p>
                                                 </div>
                                             </div>
                                         </div>

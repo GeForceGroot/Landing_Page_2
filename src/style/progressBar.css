@@ -63,29 +63,9 @@
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .progress-bar-container {
-      width: 60px;
-      height: 60px;
-      bottom: 15px;
-      right: 15px;
+      display: none;
     }
-  
-    .progress-bar-circle,
-    .progress-bar-svg {
-      width: 60px;
-      height: 60px;
-    }
-  
-    .progress-bar-svg circle {
-      stroke-width: 6;
-      stroke-dasharray: 165;
-      stroke-dashoffset: 165;
-    }
-  
-    .progress-bar-arrow {
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      border-bottom: 12px solid #425b76;
-    }
+
   }
   
   @media (max-width: 550px) {

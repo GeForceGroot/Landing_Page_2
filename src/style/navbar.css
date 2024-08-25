@@ -1,153 +1,129 @@
-.navbar-brand{
-    font-size: 20px;
-    font-family: 'Trebuchet MS', sans-serif; 
-}
-#imgLogo{
-    max-width: 170px;
-    max-height: 85px;
-}
-#myCont{
-    display: flex;
-    color: black;
-    justify-content: center;
-}
-#NavId{
-    z-index: 3;
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    padding-top: 25x;
-    padding-bottom: 25px;
-}
-@media (max-width:300px) {
-    #imgLogo{
-        width: 150px;
-        height: 70px;
-    }
-}
-@media (max-width:990px) {
-    #myCont{
-        display: none;
-    }
-    #navLogo{
-        justify-content: center;
-    }
+.navbar-brand {
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
-#btnHvn {
-    /* Default button styling */
-    padding: 7px 25px;
-    background-color: #b9def4; /* Initial background color */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial box-shadow */
-    border: none; /* No border */
-    border-radius: 10px; /* Rounded corners */
-    color: #015c91; /* Initial text color */
-    cursor: pointer; /* Pointer cursor on hover */
-    position: relative; /* Positioning context for pseudo-elements */
-    overflow: hidden; /* Hide overflow of pseudo-elements */
-    font-size: 15px; /* Font size */
-    font-weight: 500; /* Font weight */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
+#imgLogo {
+  max-width: 170px;
+  max-height: 85px;
+}
+
+#myCont {
+  display: flex;
+  color: black;
+  justify-content: center;
+}
+
+#NavId {
+  z-index: 3;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  padding-top: 25x;
+  padding-bottom: 25px;
+}
+
+@media (max-width:480px) {
+  #imgLogo {
+      width: 150px;
+      height: 70px;
   }
-  
-  #btnHvn::before,
-  #btnHvn::after {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    top: 0;
-    transition: transform 0.3s ease;
-    z-index: 0; /* Ensure pseudo-elements are behind text */
+
+  #name {
+      width: 260px;
   }
-  
-  #btnHvn::before {
-    left: 0;
-    background-color: #425b76; /* Background color for sliding effect */
-    transform: translateX(-100%);
+
+  #email {
+      width: 260px;
   }
-  
-  #btnHvn::after {
-    right: 0;
-    background-color: #425b76; /* Background color for sliding effect */
-    transform: translateX(100%);
+
+  #phone {
+      width: 260px;
   }
-  
-  #btnHvn:hover::before,
-  #btnHvn:hover::after {
-    transform: translateX(0); /* Slide effect on hover */
+
+  #requirement {
+      width: 260px;
   }
-  
-  #btnHvn:hover {
-    background-color: #425b76; /* Change background color on hover */
-    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); /* Hover effect for box-shadow */
-    color: white; /* Change text color to white on hover */
+
+  .paraText {
+      text-align: center;
+      margin-left: 0px;
   }
-  
-  #btnHvn span {
-    position: relative; /* Relative position for stacking context */
-    z-index: 1; /* Ensure text stays above pseudo-elements */
-    transition: color 0.3s ease; /* Smooth transition for text color */
+
+  #rowReverse {
+      display: flex;
+      flex-direction: column-reverse;
   }
-  
-  /* Ensure the button text remains visible and centered */
-  #btnHvn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .abou-5textarea5 {
+      padding: 0px 0px 0px 5px;
   }
-  
-  
+
+  img.elementor-9 {
+      display: none;
+  }
+
+  .about5-images {
+      margin-top: 3%;
+  }
+}
+
+@media (max-width:990px) {
+  #myCont {
+      display: none;
+  }
+
+  #navLogo {
+      justify-content: center;
+  }
+}
+
 /* Navbar Section Styles */
 .navbar-section {
-    position: sticky;
-    top: 0;
-    z-index: 4;
-    /* background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(64, 64, 64, 0.5), rgba(105, 105, 105, 0.5), rgba(169, 169, 169, 0.5), rgba(211, 211, 211, 0.5)); */
-    /* backdrop-filter: blur(20px); */
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    padding: 2px;
-    transition: background 0.3s ease-in-out;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  /* background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(64, 64, 64, 0.5), rgba(105, 105, 105, 0.5), rgba(169, 169, 169, 0.5), rgba(211, 211, 211, 0.5)); */
+  /* backdrop-filter: blur(20px); */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  padding: 2px;
+  transition: background 0.3s ease-in-out;
 }
 
 /* Sticky Navbar Styles */
 .sticky {
-    background: white;
-    opacity: .9;
-    backdrop-filter: none;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15); */
+  background: white;
+  opacity: .9;
+  backdrop-filter: none;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15); */
 }
 
 .navbar-nav .nav-link {
-    color: black;
+  color: black;
 }
 
 .navbar-nav .nav-link:hover {
-    color: white;
+  color: white;
 }
 
 .Nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 5;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .Nav.scrolled {
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-link {
-    color: white;
-    transition: color 0.3s ease;
-  }
-  
-  .Nav.scrolled .nav-link {
-    color: black;
-  }
-  
-  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
+.Nav.scrolled {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+.nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.Nav.scrolled .nav-link {
+  color: black;
+}

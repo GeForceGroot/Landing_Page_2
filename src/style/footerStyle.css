@@ -1,0 +1,164 @@
+.footer4-section-area8 {
+    position: relative;
+    background: #6083A9;
+}
+
+.section-padding15 {
+    padding: 100px 0 80px;
+}
+
+.colorfooter1 {
+    color: #cfcfcf;
+}
+
+.about40links {
+    padding-left: 40px;
+}
+
+.about-5-links ul li a {
+    transition: all .4s ease-in-out;
+}
+
+#textRight {
+    text-align: start;
+}
+
+@media (max-width:480px) {
+    #textRight {
+        text-align: center;
+    }
+    .footer-title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-contact-info {
+        justify-content: center;
+        /* Center alignment for screens 480px or narrower */
+    }
+}
+
+.footer-section {
+    background: linear-gradient(135deg, rgb(25, 108, 104, 0.9), rgba(44, 62, 80, 0.9));
+    /* Gradient for depth */
+    backdrop-filter: blur(10px);
+    /* Blur effect for a smooth, frosted glass look */
+    color: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 0;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.5);
+    /* Subtle shadow for depth */
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    /* Clean border at the top */
+}
+
+.footer-logo {
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.footer-description {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #e2e8f0;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    /* max-width: 320px; */
+    /* Slightly wider for a balanced layout */
+    text-align: justify;
+    /* Justified text for a clean look */
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* Added letter spacing for a modern touch */
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-link {
+    display: inline-block;
+    font-size: 15px;
+    color: #e2e8f0;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Added transform for a subtle hover effect */
+}
+
+.footer-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transform: translateX(5px);
+    /* Small slide effect on hover */
+}
+
+.footer-contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+    transition: transform 0.3s ease;
+    /* Icon scaling on hover */
+}
+
+.footer-contact-link {
+    font-size: 15px;
+    color: #e2e8f0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-icon:hover {
+    transform: scale(1.1);
+    /* Slightly enlarge icon on hover */
+}
+
+.footer-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    /* Softer divider for elegance */
+    margin: 25px 0;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #e2e8f0;
+    margin-top: 20px;
+}
+
+.footer-copyright a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-copyright a:hover {
+    color: #d1d5db;
+    /* Subtle light color on hover */
+    text-decoration: underline;
+}
+
+#setFooter .footer-contact {
+    text-align: start;
+    /* Default alignment for screens wider than 480px */
+}

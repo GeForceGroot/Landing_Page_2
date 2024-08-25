@@ -39,9 +39,9 @@ const Experinse = () => {
                             </div>
                         </div>
                         {/* <!-- Text Section --> */}
-                        <div className="text-col" data-aos="fade-left" data-aos-duration="1400" style={{ textAlign: 'start' }}>
+                        <div className="text-col" data-aos="fade-left" data-aos-duration="1000" style={{ textAlign: 'start' }}>
                             <div className="text-wrapper">
-                                <span className="font-outfit font-16 lineh-16 weight-500 color-h12 aroplan3 d-inline-block margin-b24">Our Service</span>
+                                <span className="font-outfit font-16 lineh-16 weight-500 color-h12 aroplan3 d-inline-block margin-b24">About Us</span>
                                 <h1 style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68' }} className="font-outfit font-40 lineh-52 weight-600 colorhp11 text-capitalize">Immense presence supported by years of experience</h1>
                                 <h6 className="section-heading">
                                     Integrity, Trust, Partnership, Success
@@ -56,7 +56,7 @@ const Experinse = () => {
                                     <strong>Mission :-</strong>It is our vision to be the most prioritised business service provider in northern regions or a majority of business operation services.
                                 </p>
                                 <Link to="about-us" smooth={true} duration={600}>
-                                    <button to="about-us" smooth={true} duration={600} data-aos="fade-left" data-aos-duration="1000" id="btnAbout"><span>About Us</span></button>
+                                    <button data-aos="fade-left" data-aos-duration="1000" id="btnAbout"><span>About Us</span></button>
                                 </Link>
                             </div>
                         </div>

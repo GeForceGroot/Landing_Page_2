@@ -1,8 +1,8 @@
-.service-haeder-text h1{
+.service-haeder-text h1 {
     padding: 0 320px;
 }
 
-.service2-section-areas{
+.service2-section-areas {
     background-size: cover;
     background-repeat: no-repeat;
     background: #EFF7F6;
@@ -10,38 +10,44 @@
 }
 
 
-span.maximum{
+span.maximum {
     border-radius: 4px;
     background: rgba(241, 190, 20, 0.10);
     padding: 10px 16px;
     font-weight: 400;
 }
 
-.service-after-before{
+.service-after-before {
     margin-bottom: 30px;
+    height: 375px;
 }
 
-.service-after-before{
+.service-after-before {
     position: relative;
     z-index: 1;
     padding: 28px 24px;
     transition: all .4s ease-in-out;
 }
-.service-after-before a{
-    color: #196C68; 
+
+.service-after-before a {
+    color: #196C68;
 }
-.service-after-before:hover a{
-    color: white; 
+
+
+.service-after-before:hover a {
+    color: white;
     position: relative;
     z-index: 2;
-}.service-after-before:hover ul li{
-    color: white; 
+}
+
+.service-after-before:hover ul li {
+    color: white;
     position: relative;
     z-index: 2;
 }
 
 
-.service-after-before::before{
+.service-after-before::before {
     position: absolute;
     content: "";
     height: 100%;
@@ -57,12 +63,12 @@ span.maximum{
     border-radius: 5px;
 }
 
-.service2-icon{
+.service2-icon {
     position: relative;
     z-index: 3;
 }
 
-.service2-icon{
+.service2-icon {
     background: #E8EDF1;
     height: 70px;
     display: inline-block;
@@ -73,28 +79,46 @@ span.maximum{
     margin-bottom: 20px;
 }
 
-.service-after-before h1{
+.service-after-before p h3 {
+    color: #196C68;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3)
+}
+
+.service-after-before h1 {
     position: relative;
     z-index: 3;
     transition: all .4s ease-in-out;
 }
 
-.service-after-before p{
+.service-after-before h3 {
+    color: #196C68;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.service-after-before:hover h3 {
+    color: white;
     position: relative;
     z-index: 3;
-    transition: all .4s ease-in-out;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
 }
-.service-after-before a.learn-more{
+
+.service-after-before p {
     position: relative;
     z-index: 3;
     transition: all .4s ease-in-out;
 }
 
-a.learn-more span{
+.service-after-before a.learn-more {
+    position: relative;
+    z-index: 3;
     transition: all .4s ease-in-out;
 }
 
-.service-after-before::after{
+a.learn-more span {
+    transition: all .4s ease-in-out;
+}
+
+.service-after-before::after {
     border-radius: 5px;
     background: #FFF;
     content: "";
@@ -108,7 +132,7 @@ a.learn-more span{
     transition: all .4s ease-in-out;
 }
 
-.service-after-before:hover::after{
+.service-after-before:hover::after {
     border-radius: 5px;
     opacity: 0.88;
     background: #141B2C;
@@ -116,7 +140,7 @@ a.learn-more span{
     transition: all .4s ease-in-out;
 }
 
-.service-after-before::after{
+.service-after-before::after {
     border-radius: 5px;
     background: #FFF;
     content: "";
@@ -129,22 +153,25 @@ a.learn-more span{
     z-index: -1;
     transition: all .4s ease-in-out;
 }
-.service-after-before:hover h1{
+
+.service-after-before:hover h1 {
     color: #fff;
     transition: all .4s ease-in-out;
 }
-.service-after-before:hover p{
+
+.service-after-before:hover p {
     color: #fff;
     transition: all .4s ease-in-out;
 }
-.service-after-before:hover .service2-icon{
+
+.service-after-before:hover .service2-icon {
     position: relative;
     z-index: 3;
     background: #fff;
     transition: all .4s ease-in-out;
 }
 
-.listStyle{
+.listStyle {
     list-style: circle;
     text-align: initial;
     margin-bottom: 10px;
@@ -156,8 +183,20 @@ a.learn-more span{
     color: white;
 }
 
+@media (max-width:768px) {
+    .listStyle{
+        margin-top: 25px;
+    }
+    .service-after-before{
+        height: 325px;
+    }
+    .service-haeder-text h1 {
+        padding: 0px;
+    }
+}
+
 @media (max-width:550px) {
-    .service-haeder-text h1{
+    .service-haeder-text h1 {
         padding: 0px;
     }
 }

@@ -23,7 +23,7 @@ const TeamMember = () => {
                             <div className="team-detailsimg">
                                 <img
                                     data-aos="zoom-in"
-                                    data-aos-offset="200"
+                                    btnAbout
                                     data-aos-duration="1200"
                                     src={img}
                                     style={{ borderRadius: '15px', boxShadow: '0 15px 25px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2)' }}
@@ -39,14 +39,14 @@ const TeamMember = () => {
                                     id='team'
                                     className="font-16 font-outfit weight-500 lineh-16 color36 d-inline-block consultingspan margin-b20"
                                     data-aos="fade-right"
-                                    data-aos-offset="200"
+                                    btnAbout
                                     data-aos-duration="1200"
                                 >
                                     Team Members
                                 </span>
                                 <h1
                                     data-aos="fade-right"
-                                    data-aos-offset="200"
+                                    btnAbout
                                     data-aos-duration="1200"
                                     className="font-lora font-48 lineh-54 weight-600 color-29 margin-b"
                                     style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', margin: '0px' }}
@@ -56,7 +56,7 @@ const TeamMember = () => {
                                 </h1>
                                 <p
                                     data-aos="fade-right"
-                                    data-aos-offset="200"
+                                    btnAbout
                                     data-aos-duration="1200"
                                     className="font-16 lineh-26 weight-500 color-30 font-ks"
                                     style={{ marginTop: '20px', fontFamily: 'inherit' }}
@@ -67,7 +67,7 @@ const TeamMember = () => {
                                     <button
                                         className='aos-init'
                                         data-aos="fade-left"
-                                        data-aos-offset="100"
+                                        btnAbout
                                         data-aos-duration="1200"
                                         id="btnContact"
                                     >

@@ -42,6 +42,7 @@ span.consultingspan {
     z-index: 2;
     transition: all .4s ease-in-out;
     margin: 10px;
+    height: 230px;
     box-shadow: 1px 1px 10px 1px gray;
 }
 
@@ -66,7 +67,7 @@ span.consultingspan {
     background: #196C68;
     position: absolute;
     content: "";
-    height: 100%;
+    height: 230px;
     top: 0;
     right: 0;
     width: 0;
