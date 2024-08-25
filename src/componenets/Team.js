@@ -1,19 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import '../style/team.css'
 import img from '../images/kaushik.png'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { Link } from 'react-scroll';
 
 const TeamMember = () => {
 
-    useEffect(() => {
-        AOS.init({
-            duration: 1200,  // Default duration for all animations
-            once: false,      // Whether animation should happen only once - while scrolling down
-            mirror: true,     // Whether elements should animate out while scrolling past them
-        });
-    }, []);
     return (
         <>
             <div className="team-details-sectionarea section-padding5" style={{ marginTop: '25px' }}>
@@ -22,9 +13,7 @@ const TeamMember = () => {
                         <div className="col-lg-6">
                             <div className="team-detailsimg">
                                 <img
-                                    data-aos="zoom-in"
                                     btnAbout
-                                    data-aos-duration="1200"
                                     src={img}
                                     style={{ borderRadius: '15px', boxShadow: '0 15px 25px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2)' }}
                                     width={'400px'}
@@ -38,16 +27,12 @@ const TeamMember = () => {
                                 <span
                                     id='team'
                                     className="font-16 font-outfit weight-500 lineh-16 color36 d-inline-block consultingspan margin-b20"
-                                    data-aos="fade-right"
                                     btnAbout
-                                    data-aos-duration="1200"
                                 >
                                     Team Members
                                 </span>
                                 <h1
-                                    data-aos="fade-right"
                                     btnAbout
-                                    data-aos-duration="1200"
                                     className="font-lora font-48 lineh-54 weight-600 color-29 margin-b"
                                     style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: '#196C68', margin: '0px' }}
                                     id='nameKau'
@@ -55,9 +40,7 @@ const TeamMember = () => {
                                     Mr Kaushik Thakkar
                                 </h1>
                                 <p
-                                    data-aos="fade-right"
                                     btnAbout
-                                    data-aos-duration="1200"
                                     className="font-16 lineh-26 weight-500 color-30 font-ks"
                                     style={{ marginTop: '20px', fontFamily: 'inherit' }}
                                 >
@@ -65,10 +48,7 @@ const TeamMember = () => {
                                 </p>
                                 <Link to="contactUs" smooth={true} duration={600}>
                                     <button
-                                        className='aos-init'
-                                        data-aos="fade-left"
                                         btnAbout
-                                        data-aos-duration="1200"
                                         id="btnContact"
                                     >
                                         <span>Get In Touch</span>
