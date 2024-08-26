@@ -42,7 +42,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Leverage technology for automation and intelligence</p>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Leverage AI technology for data automation and intelligence</p>
                                                 </div>
                                             </div>
                                         </div>

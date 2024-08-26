@@ -93,3 +93,22 @@ span.consultingspan {
 #setColor:hover .workstext a {
     color: white;
 }
+
+
+@media (max-width:1200px) {
+    .works-servicearea{
+        height: 350px;
+    }
+}@media (max-width:990px) {
+    .works-servicearea{
+        height: 150px;
+    }
+}@media (max-width:720px) {
+    .works-servicearea{
+        height: 200px;
+    }
+}@media (max-width:500px) {
+    .works-servicearea{
+        height: 250px;
+    }
+}
