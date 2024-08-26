@@ -4,6 +4,9 @@ import emailjs from '@emailjs/browser';
 import logo from '../images/logo-new.png';
 import '../style/contact.css';
 import '../style/navbar.css';
+import ring from '../images/elementor61.png'
+import home from '../images/homepagewelbg.png'
+import middleSvg from '../images/export4.svg'
 
 const Carousel = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -90,43 +93,66 @@ const Carousel = () => {
         </section>
 
         <div className="container" style={{ marginTop: "150px" }}>
-          <div className="row" id="resposniveCaro">
-            <div className="col">
-              <div className="innerBox" data-aos="fade-right" data-aos-duration="800" style={{ marginTop: '50px', color: '#F1BE14', fontSize: '18px', borderRadius: '4px', padding: '8px 14px', background: 'rgba(255, 255, 255, 0.10)' }}>
-              Your Personalised Financial Solutions
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className="header10-textarea aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1000">
+                <span className="font-ks lineh-16 weight-500 color aboutspan font-16 d-inline-block margin-b24">Insurance Consulting Services</span>
+                <h1 style={{ color: 'white', fontWeight: '600', marginBottom: "24px" }} className="font-lora font-48 lineh-54 weight-600 color margin-b24 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">Proven Insurance Strategies Success</h1>
+                <p style={{ marginTop: "0px", marginBottom: '1rem', color: 'white' }} className="font-ks font-16 weight-500 color opacity2 lineh-26">Why not allow us to handle your accounting, taxes, laws, payroll and more? You focus on making sales supported by our proven strategies. Get a helping hand to go that extra mile.</p>
+                <div className="div aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
+                  <button id="btnSubmit" className="font-16 font-ks weight-700 color lineh-16 homepagebtn10 d-inline-block margin-t32 ts"><span>Contact Us</span><span><img src="assets/images/icons/arrowben.svg" alt="" className="ts" /></span></button>
               </div>
-              <p id="startCaro" data-aos="zoom-in" data-aos-duration="1000" style={{ marginTop: "25px", fontSize: '45px', fontWeight: "600", fontFamily: 'ui-sans-serif', color: 'whitesmoke' }}>Customized Financial Strategies For Sustainable Growth</p>
-              <p className="paraText" id="paraCaro" data-aos="fade-right" data-aos-duration="800" >
-              Standards for booking and accounting have been raised in Canada, and businesses have extra headaches to handle new taxation laws while handling increasing competition. This leads to hindered progress of your business. Why not allow us to handle your accounting, taxes, laws, payroll and more? You focus on making sales supported by our proven strategies. Get a helping hand to go that extra mile.  
-              </p>
             </div>
-            <div className="col" style={{marginTop:"25px"}}>
-              <form ref={form} className="form" onSubmit={sendEmail} data-aos="fade-left" data-aos-duration="1000">
-                <h4 style={{ display: 'flex', color: 'rgb(241, 190, 20)', fontWeight: '700', textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', letterSpacing: '1px' }}> Request a free consult now!</h4>
-                <div className='row' id="makeBlock">
-                  <div className="col form-group" data-aos="fade-up" data-aos-duration="800">
-                    <label htmlFor="name" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Your Name (Required)</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+          </div>
+          <div className="col-lg-1"></div>
+          <div className="col-lg-5" >
+            <div className="welcome-bgarea aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+              <div className="welcome-ellips aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1200">
+                <img src={home} alt="" className="homewelbg keyframe3" />
+                <div className="elips-icon">
+                  <img src={middleSvg} alt="" />
+                </div>
+              </div>
+              <div className="welcomeellips-icon">
+                <div className="ellipsarea1">
+                  <div className="exportellips">
+                    <img src="assets/images/icons/export5.svg" alt="" className="" />
                   </div>
-                  <div className="col form-group" data-aos="fade-up" data-aos-duration="800">
-                    <label htmlFor="email" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Your Email (Required)</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                  <img src={ring} alt="" className="elementor60 keyframe3" />
+                </div>
+              </div>
+
+              <div className="welcomeellips-icon1">
+                <div className="ellipsarea2">
+                  <div className="exportellips">
+                    <img src="assets/images/icons/export6.svg" alt="" className="" />
                   </div>
+                  <img src={ring} alt="" className="elementor60 keyframe3" />
                 </div>
-                <div className="form-group" data-aos="fade-up" data-aos-duration="800" style={{ marginTop: '20px' }}>
-                  <label htmlFor="phone" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Phone (Optional)</label>
-                  <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+              </div>
+
+
+              <div className="welcomeellips-icon2">
+                <div className="ellipsarea3">
+                  <div className="exportellips">
+                    <img src="assets/images/icons/export7.svg" alt="" className="" />
+                  </div>
+                  <img src={ring} alt="" className="elementor60 keyframe3" />
                 </div>
-                <div className="form-group" data-aos="fade-up" data-aos-duration="800" style={{ marginTop: '20px' }}>
-                  <label htmlFor="requirement" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Tell Us About Your Requirement</label>
-                  <textarea id="requirement" name="requirement" rows="4" placeholder="Describe your needs in detail"></textarea>
+              </div>
+              <div className="welcomeellips-icon3">
+                <div className="ellipsarea4">
+                  <div className="exportellips">
+                    <img src="assets/images/icons/export8.svg" alt="" className="" />
+                  </div>
+                  <img src={ring} alt="" className="elementor60 keyframe3" />
                 </div>
-                <button data-aos="fade-left" data-aos-duration="1000" id="btnSubmit"><span>Contact Us</span></button>
-              </form>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section >
     </>
   );
 };

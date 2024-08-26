@@ -97,13 +97,14 @@ button[type="submit"] {
   .midContac {
     display: none;
   }
-  #makeBlock{
+
+  #makeBlock {
     display: block;
   }
 
 }
 
-#startCaro{
+#startCaro {
   text-align: start;
 }
 
@@ -139,17 +140,18 @@ button[type="submit"] {
     font-size: 14px;
     /* Adjust as needed */
   }
-  #startCaro{
+
+  #startCaro {
     text-align: center;
   }
 }
 
 .paraText {
   text-align: left;
-  font-size: 20px ;
-  color: whitesmoke ;
-  font-weight: 500 ;
-  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1) ;
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: 500;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -170,7 +172,7 @@ button[type="submit"] {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../images/1.06cea62fdb1d662aa452.jpg');
+  background-image: url('../images/header10bg.png');
   /* Background image */
   background-size: cover;
   background-position: center;
@@ -189,9 +191,9 @@ button[type="submit"] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(4, 29, 41, 0.6), rgba(0, 0, 0, 0.4));
+  background: #091622;
   z-index: 1;
-  opacity: 0.8;
+  opacity: 0.65;
   /* Adjust opacity to your preference */
 }
 
@@ -302,7 +304,7 @@ button[type="submit"] {
 
 #btnSubmit {
   /* Default button styling */
-  padding: 10px 25px;
+  padding: 12px 29px;
   background-color: #196C68;
   /* Initial background color */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -471,22 +473,181 @@ span.consultingspan {
 }
 
 
+
+span.aboutspan {
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.20);
+  padding: 8px 12px;
+  color: #F1BE14;
+  margin-bottom: 24px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.header10-textarea {
+  text-align: start;
+  padding: 25px;
+}
+
+.header10-textarea::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: linear-gradient(118deg, #FFF -369.01%, rgba(255, 255, 255, 0.00) 108.3%);
+  z-index: -1;
+}
+
+
+.opacity2 {
+  opacity: 0.9;
+}
+
+
+img.homewelbg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.elips-icon {
+  border-radius: 118.421px;
+  background: #196C68;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  line-height: 120px;
+  position: absolute;
+  top: 40%;
+  left: 39%;
+}
+
+.ellipsarea1 {
+  position: absolute;
+  top: -50px;
+  left: 207px;
+}
+
+.exportellips {
+  background: #fff;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 9px;
+}
+
+.ellipsarea2 {
+  position: absolute;
+  top: 215px;
+  left: -50px;
+}
+
+.ellipsarea3 {
+  position: absolute;
+  bottom: -45px;
+  left: 215px;
+}
+
+.ellipsarea4 {
+  position: absolute;
+  top: 41%;
+  right: -45px;
+}
+
+.keyframe3 {
+  position: relative;
+  animation-name: animation-3;
+  animation-duration: 150s;
+  animation-iteration-count: alternate;
+  animation-direction: infinite;
+}
+
+@keyframes animation-3 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(1000deg);
+  }
+}
+
+
 @media (max-width:1050px) {
-  #resposniveCaro{
+  #resposniveCaro {
     display: block;
-  }  
-  #rowReverse{
+  }
+
+  #rowReverse {
     display: flex;
     flex-direction: column-reverse;
   }
 
-  .about5ims{
+  .about5ims {
     margin-top: 50px;
   }
-  #centerData{
+
+  #centerData {
     text-align: center;
   }
-  .consultingspan{
+
+  .consultingspan {
     margin-bottom: 0px;
+  }
+}
+
+@media (max-width:990px) {
+  .welcome-bgarea {
+    margin-top: 75px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .ellipsarea1 {
+    left: 300px;
+  }
+
+  .ellipsarea2 {
+    left: -37px;
+    top: 250px;
+  }
+
+  .ellipsarea3 {
+    left: 310px;
+  }
+
+  .ellipsarea4 {
+    right: -36px;
+    top: 36%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .ellipsarea4 {
+    right: -12px;
+    top: 35%;
+  }
+
+  .ellipsarea3 {
+    left: 133px;
+  }
+
+  .ellipsarea2 {
+    left: -12px;
+    top: 125px;
+  }
+
+  .ellipsarea1 {
+    left: 125px;
   }
 }
