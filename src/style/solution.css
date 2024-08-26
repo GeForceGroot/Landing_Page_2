@@ -46,6 +46,11 @@ span.consultingspan {
     box-shadow: 1px 1px 10px 1px gray;
 }
 
+
+.works-servicearea:hover #setRang{
+    color: white;
+}
+
 .ts {
     transition: all .4s ease-in-out;
 }
