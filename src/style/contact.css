@@ -651,3 +651,11 @@ img.homewelbg {
     left: 125px;
   }
 }
+
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .elips-icon{
+    left: 33%;
+    top: 33%;
+  }
+}
