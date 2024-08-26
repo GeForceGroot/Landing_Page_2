@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from 'react-scroll';
-import logo from '../images/logo-new.png';
+import logo from '../images/logo 1 (2).png';
 import '../style/contact.css';
 import '../style/navbar.css';
 import ring from '../images/elementor61.png'

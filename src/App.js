@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 import './index.css';
-import logo from './images/logo-new.png';
+import logo from './images/logo 1 (2).png';
 import Carousel from './componenets/Carousel';
 import Experinse from './componenets/Experinse';
 import Value from './componenets/Value';

@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import '../style/footerStyle.css'
-import img from '../images/logo-new.png'
+import img from '../images/logo 1 (2).png'
 import { Link } from 'react-scroll'
 
 
