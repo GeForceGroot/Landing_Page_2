@@ -19,6 +19,7 @@ const TeamMember = () => {
                                     width={'400px'}
                                     height={'400px'}
                                     alt="Team Member"
+                                    id='setSize'
                                 />
                             </div>
                         </div>

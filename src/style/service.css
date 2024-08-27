@@ -195,8 +195,11 @@ a.learn-more span {
     }
 }
 
-@media (max-width:550px) {
+@media (max-width:420px) {
     .service-haeder-text h1 {
         padding: 0px;
+    }
+    .service-after-before{
+        height: 375px;
     }
 }

@@ -182,6 +182,21 @@ const Service = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="service-after-before">
                                 <div className="service2-icon">
+                                    <img src={img8} width={'38px'} height={'38px'} alt="Payroll Management" />
+                                </div>
+                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">GST/HST</h3>
+                                <ul className='listStyle'>
+                                    <li>One-stop solution for all taxation hurdles</li>
+                                    <li>Tax calculations for various provincial operations</li>
+                                    <li>Professional CPAs and CAs at your service</li>
+                                    <li>Get saving strategies from day 1</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6">
+                            <div className="service-after-before">
+                                <div className="service2-icon">
                                     <img src={img11} width={'38px'} height={'38px'} alt="Corporate Training" />
                                 </div>
                                 <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Corporate Training</h3>
@@ -190,21 +205,6 @@ const Service = () => {
                                     <li>Certified tutors for high-quality education</li>
                                     <li>Get personalised classes for corporate needs</li>
                                     <li>Seminars for handling complex situations</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-after-before">
-                                <div className="service2-icon">
-                                    <img src={img6} width={'38px'} height={'38px'} alt="Payroll Management" />
-                                </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Payroll Management</h3>
-                                <ul className='listStyle'>
-                                    <li>Get direct pay in the accounts</li>
-                                    <li>Personalised premium portals for data access</li>
-                                    <li>Separate calculation for employees in branches</li>
-                                    <li>Record maintenance for audit</li>
                                 </ul>
                             </div>
                         </div>
