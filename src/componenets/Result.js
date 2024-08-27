@@ -94,7 +94,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Document management with retrieval presentation to authorities</p>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Document management with retrieval presentation</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -107,7 +107,7 @@ const Result = () => {
                                                     <img src={img} width={'32px'} height={'32px'} />
                                                 </div>
                                                 <div className='col-10' style={{ display: 'flex', textAlign: 'left' }}>
-                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Latest tools and technology for effective communication and control</p>
+                                                    <p className="font-16 font-outfit lineh-16 weight-600 color ts" style={{ color: 'white', fontWeight: '600', fontSize: '17px', textDecoration: 'none', }}>Latest tools and technology for effective communication</p>
                                                 </div>
                                             </div>
                                         </div>

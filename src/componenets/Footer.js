@@ -44,7 +44,7 @@ const Footer = () => {
                                 </div>
                                 <div className="footer-contact-info">
                                     <img src="https://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Home-icon.png" alt="Location" className="footer-icon" />
-                                    <a href="#" className="footer-contact-link">701 Market Street, Suite 110 PMB1424, Saint Louis, MO 63101, United States</a>
+                                    <a href="#" className="footer-contact-link">2482 Yonge Street Toronto, ON M4P 2H5 Canada</a>
                                 </div>
                                 <div className="footer-contact-info">
                                     <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/256/Phone-icon.png" alt="Phone" className="footer-icon" />
