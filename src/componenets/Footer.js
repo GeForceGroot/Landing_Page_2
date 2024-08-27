@@ -54,7 +54,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-divider"></div>
                         <div className="footer-copyright text-center">
-                            <p>&copy; 2024 <a href="https://intqbooks.com/">Quick Accounting | Design & Develop with 🤍 by Shreyansh Tiwari</a></p>
+                            <p>&copy; 2024 <a href="https://intqbooks.com/">Cad Bookkeping | Design & Develop with 🤍 by Shreyansh Tiwari</a></p>
                         </div>
                     </div>
                 </div>
