@@ -40,7 +40,6 @@ span.consultingspan {
     padding: 28px 20px;
     position: relative;
     z-index: 2;
-    transition: all .4s ease-in-out;
     margin: 10px;
     height: 230px;
     box-shadow: 1px 1px 10px 1px gray;
@@ -97,6 +96,12 @@ span.consultingspan {
 
 #setColor:hover .workstext a {
     color: white;
+}
+
+@media (max-width:1400px) {
+    .works-servicearea{
+        height: 270px;
+    }
 }
 
 
