@@ -15,7 +15,6 @@ const TeamMember = () => {
                                 <img
                                     btnAbout
                                     src={img}
-                                    style={{ borderRadius: '15px', boxShadow: '0 15px 25px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2)' }}
                                     width={'400px'}
                                     height={'400px'}
                                     alt="Team Member"
