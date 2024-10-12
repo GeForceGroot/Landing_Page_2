@@ -38,20 +38,22 @@ const Carousel = () => {
           <div className="container" style={{ marginTop: "25px" }}>
             <div className="row align-items-center">
               <div className="col-md-2">
+                <a href="/">
                 <img id="imgLogo" src={logo} alt="logo" className="img-fluid" />
+                </a>
               </div>
               <div className="col-md-8">
                 <ul className="nav justify-content-center">
                   <li className="nav-item" >
-                    <Link to="home" smooth={true} duration={600} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>Home</Link>
+                    <Link to="home" smooth={true} duration={600} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px', cursor:'pointer' }}>Home</Link>
                   </li>
                   <li className="nav-item" >
-                    <Link to="about-us" smooth={true} duration={600} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                    <Link to="about-us" smooth={true} duration={600} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px', cursor:'pointer' }}>
                       About&nbsp;Us
                     </Link>
                   </li>
                   <li className="nav-item" >
-                    <Link to="services" smooth={true} duration={600} className="nav-link" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                    <Link to="services" smooth={true} duration={600} className="nav-link" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px', cursor:'pointer' }}>
                       Services
                     </Link>
                   </li>
