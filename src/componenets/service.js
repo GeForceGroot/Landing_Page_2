@@ -36,10 +36,11 @@ const Service = () => {
                                 </div>
                                 <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Outsourcing</h3>
                                 <ul className='listStyle'>
-                                    <li>Only pay for what you want</li>
-                                    <li>Professional help in peak seasons</li>
-                                    <li>Get and cancel add-on services anytime</li>
-                                    <li>Real-time access to reports and information</li>
+                                    <li>Bookkeeping and Year-end finalization</li>
+                                    <li>Payroll preparation and filing</li>
+                                    <li>Sales tax (GST/PST/HST) preparation and filing</li>
+                                    <li>Accounts Receivable/Payable Management</li>
+                                    <li>Tax return preparation, review and filing</li>
                                 </ul>
                             </div>
                         </div>
@@ -51,10 +52,11 @@ const Service = () => {
                                 </div>
                                 <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Bookkeeping</h3>
                                 <ul className='listStyle'>
-                                    <li>Keeping detailed transactional records</li>
-                                    <li>AI-based recording of cash flow</li>
-                                    <li>Error-free recording and maintenance</li>
-                                    <li>3 way checking for transactions</li>
+                                    <li>Entry of Bills, Invoices and Payroll reports</li>
+                                    <li>Record Bank and Credit Card tranactions</li>
+                                    <li>Bank and credit card reconciliations</li>
+                                    <li>Promptly address client Queries</li>
+                                    <li>Bookkeeping Review and Management reports</li>
                                 </ul>
                             </div>
                         </div>
@@ -64,12 +66,13 @@ const Service = () => {
                                 <div className="service2-icon">
                                     <img src={img2} width={'38px'} height={'38px'} alt="Financial Forecasting" />
                                 </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Financial Forecasting</h3>
+                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b"> GST/HST/PST</h3>
                                 <ul className='listStyle'>
-                                    <li>Manage resources effectively to save more</li>
-                                    <li>Proactive approach with Cad Bookkeeping</li>
-                                    <li>Advanced based environmental data analysis</li>
-                                    <li>Years of experience as strategies</li>
+                                    <li>Record every transactions</li>
+                                    <li>Cross-check transactions</li>
+                                    <li>Verify credits and exemptions</li>
+                                    <li>Ensure accurate, timely filing</li>
+                                    <li>Stay compliant with regulations.</li>
                                 </ul>
                             </div>
                         </div>
@@ -79,12 +82,13 @@ const Service = () => {
                                 <div className="service2-icon">
                                     <img src={img3} width={'38px'} height={'38px'} alt="Virtual CFO Solutions" />
                                 </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Virtual CFO Solutions</h3>
+                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Payroll - Canada</h3>
                                 <ul className='listStyle'>
-                                    <li>Expert advice whenever you want</li>
-                                    <li>Special discounts with Cad Bookkeeping</li>
-                                    <li>Save more by not hiring a full-time CFO</li>
-                                    <li>Get real-time data for Canadian markets</li>
+                                    <li>Time and Attendance verifying</li>
+                                    <li>Paystub of hourly & salaried based staff</li>
+                                    <li>Canada tax - T1, T2 and T3 tax return filings</li>
+                                    <li>941, 940, Withholding Tax and Unemployement</li>
+                                    <li>Payroll Reconiliation at year-end</li>
                                 </ul>
                             </div>
                         </div>
@@ -94,12 +98,13 @@ const Service = () => {
                                 <div className="service2-icon">
                                     <img src={img4} width={'38px'} height={'38px'} alt="Virtual Accountants" />
                                 </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Virtual Accountants</h3>
+                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Accounts Payable/Receivable</h3>
                                 <ul className='listStyle'>
-                                    <li>Experienced team for better categorisation</li>
-                                    <li>More savings by reducing overhead cost</li>
-                                    <li>Get personalised solutions for complex problems</li>
-                                    <li>Get helping hands at year-end</li>
+                                    <li>Record Vendor bill and Customer Invoice</li>
+                                    <li>Payment processing for Bill and Invoice</li>
+                                    <li>Analyst AP Aging and AR Aging</li>
+                                    <li>Vendor reconiliations and reports</li>
+                                    <li>Automation and Technology Integration</li>
                                 </ul>
                             </div>
                         </div>
@@ -109,27 +114,27 @@ const Service = () => {
                                 <div className="service2-icon">
                                     <img src={img5} width={'38px'} height={'38px'} alt="Compliance Management" />
                                 </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Compliance Management</h3>
+                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Tax -  Canada</h3>
                                 <ul className='listStyle'>
-                                    <li>Adherence to local and international laws</li>
-                                    <li>Complies with industry norms and standards</li>
-                                    <li>The global alliance ensures updated laws</li>
-                                    <li>Approved document formats and procedures</li>
+                                    <li>Canada tax - T1, T2 and T3 tax return filings</li>
+                                    <li>Tax Planning Strategies & Expert Advice</li>
+                                    <li>Audit Representation</li>
+                                    <li>Avoiding fines & interests</li>
                                 </ul>
                             </div>
                         </div>
-
                         <div className="col-lg-4 col-md-6">
                             <div className="service-after-before">
                                 <div className="service2-icon">
                                     <img src={img6} width={'38px'} height={'38px'} alt="Payroll Management" />
                                 </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Payroll Management</h3>
+                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Audit</h3>
                                 <ul className='listStyle'>
-                                    <li>Get direct pay in the accounts</li>
-                                    <li>Personalised premium portals for data access</li>
-                                    <li>Separate calculation for employees in branches</li>
-                                    <li>Record maintenance for audit</li>
+                                    <li>Federal/State Tax Audit</li>
+                                    <li>Payroll Audit</li>
+                                    <li>GST/HST Audit</li>
+                                    <li>Unemployment Tax Audit</li>
+                                    <li>Complied Federal/State tax Law</li>
                                 </ul>
                             </div>
                         </div>
@@ -139,72 +144,27 @@ const Service = () => {
                                 <div className="service2-icon">
                                     <img src={img7} width={'38px'} height={'38px'} alt="Data Processing" />
                                 </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Data Processing</h3>
+                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Business consulting & CFO</h3>
                                 <ul className='listStyle'>
-                                    <li>Automated data collection protocols</li>
-                                    <li>Data analysis and reporting</li>
-                                    <li>Personalised reporting for decision-making</li>
-                                    <li>Flexible data extraction for operational needs</li>
+                                    <li>Strategic Financial Planning & Analysis</li>
+                                    <li>Cash Flow Management & Forecasting</li>
+                                    <li>Budgeting & Financial Reporting</li>
+                                    <li>Business Performance Improvement</li>
+                                    <li>Risk Management & Compliance</li>
                                 </ul>
                             </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
+                        </div> <div className="col-lg-4 col-md-6">
                             <div className="service-after-before">
                                 <div className="service2-icon">
-                                    <img src={img9} width={'38px'} height={'38px'} alt="Taxation Services" />
+                                    <img src={img7} width={'38px'} height={'38px'} alt="Data Processing" />
                                 </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Taxation Services</h3>
+                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Financial planning and analysis</h3>
                                 <ul className='listStyle'>
-                                    <li>Manage employment taxes for corporations</li>
-                                    <li>Calculation and filing of tax reductions</li>
-                                    <li>Tax management via global alliances</li>
-                                    <li>Internal tax audits for quality needs</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-after-before">
-                                <div className="service2-icon">
-                                    <img src={img10} width={'38px'} height={'38px'} alt="Audits" />
-                                </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Audits</h3>
-                                <ul className='listStyle'>
-                                    <li>Global audits for efficient cash flow</li>
-                                    <li>Certified financial officers on team</li>
-                                    <li>Advanced techniques for reducing audit</li>
-                                    <li>Get a proper audit in different tax sessions</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-after-before">
-                                <div className="service2-icon">
-                                    <img src={img8} width={'38px'} height={'38px'} alt="Payroll Management" />
-                                </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">GST/HST</h3>
-                                <ul className='listStyle'>
-                                    <li>One-stop solution for all taxation hurdles</li>
-                                    <li>Tax calculations for various provincial operations</li>
-                                    <li>Professional CPAs and CAs at your service</li>
-                                    <li>Get saving strategies from day 1</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-after-before">
-                                <div className="service2-icon">
-                                    <img src={img11} width={'38px'} height={'38px'} alt="Corporate Training" />
-                                </div>
-                                <h3 className="font-outfit font-22 weight-600 lineh-22 color-17 margin-b">Corporate Training</h3>
-                                <ul className='listStyle'>
-                                    <li>Training for better financial clarity</li>
-                                    <li>Certified tutors for high-quality education</li>
-                                    <li>Get personalised classes for corporate needs</li>
-                                    <li>Seminars for handling complex situations</li>
+                                    <li>Budgeting & Forecasting</li>
+                                    <li>Cash Flow Analysis</li>
+                                    <li>Financial Modeling</li>
+                                    <li>Performance Metrics & KPIs</li>
+                                    <li>Cost-Benefit Analysis</li>
                                 </ul>
                             </div>
                         </div>

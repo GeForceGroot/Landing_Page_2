@@ -19,14 +19,14 @@ const Value = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="service11-boxarea text-center">
                             <div className="service11-img">
                                 <img src={img1} width={'27px'} height={'40px'} alt="" />
                             </div>
                             <div className="service11-boxtext service12box text-center">
-                                <h5 href="servicemiddle.html" className="font-outfit font-20 lineh-30 weight-600 colorhp11 d-inline-block margin-b ts">Commitment</h5>
-                                <p className="font-16 font-outfit weight-400 colorhp12 margin-b24 ts">Our business model revolves around our clients, and our decisions are made for their comfort. The team has been allocated.</p>
+                                <h5 className="font-outfit font-20 lineh-30 weight-600 colorhp11 d-inline-block margin-b ts">Expertise and Knowledge</h5>
+                                <p className="font-16 font-outfit weight-400 colorhp12 margin-b24 ts">Our team is comprised of experienced professionals with deep knowledge of visa regulations and processes. <br />We leverage our expertise to navigate complex immigration landscapes effectively.</p>
                             </div>
                             <div className="service-vectorarea servicevector ts">
                                 <img src={svg} alt="" className="ts" />
@@ -34,14 +34,14 @@ const Value = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right" data-aos-duration="800">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="service11-boxarea text-center">
                             <div className="service11-img">
                                 <img src={img2} alt="" />
                             </div>
                             <div className="service11-boxtext service12box text-center">
-                                <h5 href="servicemiddle.html" className="font-outfit font-20 lineh-30 weight-600 colorhp11 d-inline-block margin-b ts">Agility</h5>
-                                <p className="font-16 font-outfit weight-400 colorhp12 margin-b24 ts">At Cad Bookkeeping, culture is cultivated to be flexible so that employees can easily adapt to change. This makes us Agile.</p>
+                                <h5 className="font-outfit font-20 lineh-30 weight-600 colorhp11 d-inline-block margin-b ts">Collaboration</h5>
+                                <p className="font-16 font-outfit weight-400 colorhp12 margin-b24 ts">We work closely with clients, legal experts, and governmental bodies to ensure the best outcomes. <br />Building strong relationships with stakeholders enhances our effectiveness.</p>
                             </div>
                             <div className="service-vectorarea servicevector ts">
                                 <img src={svg} alt="" className="ts" />
@@ -49,14 +49,14 @@ const Value = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right" data-aos-duration="600">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="service11-boxarea text-center">
                             <div className="service11-img">
                                 <img src={img3} alt="" />
                             </div>
                             <div className="service11-boxtext service12box text-center">
-                                <h5 href="servicemiddle.html" className="font-outfit font-20 lineh-30 weight-600 colorhp11 d-inline-block margin-b ts">Diversity</h5>
-                                <p className="font-16 font-outfit weight-400 colorhp12 margin-b24 ts">Our employee diversity from various locations and industries brings in creativity and unique solutions at the least cost for customization.</p>
+                                <h5 className="font-outfit font-20 lineh-30 weight-600 colorhp11 d-inline-block margin-b ts">Client-Centric Approach</h5>
+                                <p className="font-16 font-outfit weight-400 colorhp12 margin-b24 ts">We prioritize understanding our clients’ unique needs and goals.<br />Personalized support is provided throughout the visa process, ensuring a smooth experience.</p>
                             </div>
                             <div className="service-vectorarea servicevector ts">
                                 <img src={svg} alt="" className="ts" />
@@ -65,7 +65,7 @@ const Value = () => {
                     </div>
 
                     <div className="col-lg-12 m-auto" style={{ display: 'flex', justifyContent: 'center' }}>
-                        <div className="about-three__content-btn text-center aos-init" data-aos="fade-up" data-aos-duration="800">
+                        <div className="about-three__content-btn text-center">
                             <Link to="services" smooth={true} duration={600}>
                                 <button id='btnKnow' className="thm-btn thmbtn12 font-16 lineh-16 font-outfit weight-500 color" data-text="View More Services"><span>View More Services</span></button>
                             </Link>

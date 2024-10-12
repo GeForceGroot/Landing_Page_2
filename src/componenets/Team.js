@@ -1,6 +1,6 @@
 import React from 'react'
 import '../style/team.css'
-import img from '../images/kaushik.png'
+import img from '../images/kaushik.24719f113ff3dab930c5.png'
 import { Link } from 'react-scroll';
 
 const TeamMember = () => {
