@@ -34,7 +34,7 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="footer-contact">
                                 <h2 className="footer-title">Contact Us</h2>
-                                <a href="mailto:info@cleveraccounting.com" className="footer-contact-link">
+                                <a href="mailto:Info@cadbookkeping.com" className="footer-contact-link">
                                     <div className="footer-contact-info" style={{ marginTop: "50px" }}>
                                         <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" className="footer-icon" />
                                         Info@cadbookkeping.com
