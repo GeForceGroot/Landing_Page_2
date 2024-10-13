@@ -29,7 +29,7 @@ const Value = () => {
                                 <p className="font-16 font-outfit weight-400 colorhp12 margin-b24 ts">Our team is comprised of experienced professionals with deep knowledge of visa regulations and processes. <br />We leverage our expertise to navigate complex immigration landscapes effectively.</p>
                             </div>
                             <div className="service-vectorarea servicevector ts">
-                                <img src={svg} alt="" className="ts" />
+                                <img src='https://www.svgrepo.com/show/104235/seo-expert.svg' style={{height:'35px', width:'35px'}} alt="" className="ts" />
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Value = () => {
                                 <p className="font-16 font-outfit weight-400 colorhp12 margin-b24 ts">We work closely with clients, legal experts, and governmental bodies to ensure the best outcomes. <br />Building strong relationships with stakeholders enhances our effectiveness.</p>
                             </div>
                             <div className="service-vectorarea servicevector ts">
-                                <img src={svg} alt="" className="ts" />
+                                <img src='https://cdn-icons-png.flaticon.com/512/809/809522.png' style={{height:'35px', width:'35px'}} alt="" className="ts" />
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const Value = () => {
                                 <p className="font-16 font-outfit weight-400 colorhp12 margin-b24 ts">We prioritize understanding our clients’ unique needs and goals.<br />Personalized support is provided throughout the visa process, ensuring a smooth experience.</p>
                             </div>
                             <div className="service-vectorarea servicevector ts">
-                                <img src={svg} alt="" className="ts" />
+                                <img src='https://cdn.iconscout.com/icon/premium/png-256-thumb/customer-focus-1442865-1221158.png' style={{height:'35px', width:'35px'}} alt="" className="ts" />
                             </div>
                         </div>
                     </div>
